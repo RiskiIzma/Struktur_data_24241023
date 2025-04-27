@@ -3,7 +3,7 @@ siswa_list = []
 
 def create():
     """Menampilkan nama siswa ke dalam list"""
-    nama = input("Menambahkan nama siswa")
+    nama = input("Menambahkan nama siswa: ")
     siswa_list.append(nama)
     print(f"nama '{nama}' telah ditambahkan")
 
@@ -20,7 +20,7 @@ def update():
     """Mengubah nama siswa berdasarkan indeks"""
     read()
     try:
-        indeks = int(input("Masukan nomor siswa yang ingin diubah")) -1
+        indeks = int(input("Masukan nomor siswa yang ingin diubah: ")) -1
         if 0 <= indeks < len(siswa_list):
             nama_baru = input("Masukan nama baru")
             siswa_list[indeks] = nama_baru
