@@ -1,4 +1,4 @@
-# Tuples
+# Tuple
 # Cara Membuat Tuple di Python
 nilai_satu = 1234
 t = (nilai_satu, "objek_dua")
