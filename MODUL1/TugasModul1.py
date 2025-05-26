@@ -21,7 +21,7 @@ def main():
         # Simpan data ke dictionary
         data_mahasiswa[nim] = {
             "nama": nama,
-            "nilai_mk": nilai_mk
+            "Mata_kuliah": mata_kuliah
         }
 
     # Daftar seluruh mahasiswa
